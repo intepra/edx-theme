@@ -13,24 +13,24 @@
 <section class="static-container tos">
     <h2>${_('Terms of Service')}</h2>
 
-    <p>${_('Put your Terms of Service here!')}</p>
+    <p>${_('Разместите условия предоставления услуг здесь!')}</p>
 
     <h2 id="privacy">${_('Privacy Policy')}</h2>
 
-    <p>${_('Put your Privacy Policy here!')}</p>
+    <p>${_('Разместите здесь политику конфиденциальности!')}</p>
 
     <h2 id="honor">${_('Honor Code')}</h2>
 
-    <p>${_('Put your Honor Code here!')}</p>
+    <p>${_('Код чести (обязательства студента быть честным...)!')}</p>
 
     <h2 id="copyright">${_('Copyright')}</h2>
 
-    <p>${_('Put your Copyright Text here!')}</p>
+    <p>${_('Разместите здесь информацию об авторских правах!')}</p>
 </section>
 
 <script>
     $(document).ready(function() {
-        var print_tos = '<input type="button" value="Print Terms of Service" class="print">';
+        var print_tos = '<input type="button" value="Распечатать" class="print">';
         $('#content section.tos').prepend(print_tos).append(print_tos);
         $('#content section.tos input.print').click(function() {
             window.print();
